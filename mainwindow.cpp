@@ -52,12 +52,10 @@ void MainWindow::on_dodajNowyWpis_clicked()
 void MainWindow::on_doGory_clicked()
 {
    glownaAplikacja->aktualizujIndexy(kierunekPrzewijania::WGore);
-   glownaAplikacja->aktualizajWpisy();
 }
 void MainWindow::on_naDol_clicked()
 {
    glownaAplikacja->aktualizujIndexy(kierunekPrzewijania::NaDol);
-   glownaAplikacja->aktualizajWpisy();
 }
 
 void MainWindow::on_usunWpis_clicked()

@@ -197,10 +197,12 @@ void Program::aktualizujIndexy(kierunekPrzewijania kier)
             if((Wpis::getIndex()+ 1) < Wpis::getIloscWpisow())
             {
                 Wpis::zwiekszInd();
+                aktualizajWpisy();
             }
         }    else if((Wpis::getIndexAktualnegoWpisuFiltr() + 1) <Wpis::getIloscWpisowFiltrowanych())
         {
             Wpis::zwiekszIndFiltr();
+            aktualizajWpisy();
         }
 
 
@@ -209,11 +211,13 @@ void Program::aktualizujIndexy(kierunekPrzewijania kier)
             if((Wpis::getIndex()) > 0)
             {
                 Wpis::zmniejszInd();
+                aktualizajWpisy();
             }
         }
         else if(Wpis::getIndexAktualnegoWpisuFiltr() > 0)
         {
            Wpis::zmniejszIndFiltr();
+           aktualizajWpisy();
         }
     }
 }
