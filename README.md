@@ -11,7 +11,4 @@ This is an diary application to add and store your memories. The app was written
 - delete key - deleting entry
 - up and down arrows - scrolling through diary
 - mouse scroll - as above
-## To do:
-- Make GUI looks better
-### Important
-I am fully aware of its language is polish. I will change language and its code to english as fast as possible.
+
